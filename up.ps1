@@ -2,6 +2,8 @@ $ErrorActionPreference = "Stop";
 
 . .\upFunctions.ps1
 
+##test comment
+
 Validate-LicenseExpiry
 
 $envContent = Get-Content .env -Encoding UTF8

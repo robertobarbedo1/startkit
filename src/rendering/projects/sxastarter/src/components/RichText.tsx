@@ -1,5 +1,6 @@
 import React from 'react';
 import { Field, RichText as JssRichText } from '@sitecore-jss/sitecore-jss-nextjs';
+import { SimpleComponent } from 'shared';
 
 interface Fields {
   Text: Field<string>;
@@ -24,6 +25,8 @@ export const Default = (props: RichTextProps): JSX.Element => {
       id={id ? id : undefined}
     >
       <div className="component-content">{text}</div>
+      ola
+      <SimpleComponent></SimpleComponent>
     </div>
   );
 };
